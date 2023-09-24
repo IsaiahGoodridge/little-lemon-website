@@ -7,10 +7,10 @@ const Main = () => {
   return (
     <>
         <main className='Main'>
-          <article className='Article-container Hero-container'>
+          <article className='Article-container Hero-container' id='Hero-container' >
             <section className='Hero'>
               <h1 className='Title'>Little Lemon</h1>
-              <p className='Hero-subtitle'>Chicago</p>
+              <p className='Hero-subtitle'>New York</p>
               <p className='Hero-text'>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist</p>
               <button className='Btn Reservation-btn'>
                 Reserve a Table

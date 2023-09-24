@@ -1,5 +1,10 @@
 body {
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+
 }
 
 
@@ -48,10 +53,13 @@ a {
 
 /*Hero*/
 
-.Hero-container {
+#Hero-container, .Hero-container {
   background-color: #495e57;
   color: white;
   display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 1rem;
 }
 
 .Hero{
@@ -106,6 +114,7 @@ a {
 .This-weeks-specials-container {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 4rem;
 }
 
 .Specials-container {
