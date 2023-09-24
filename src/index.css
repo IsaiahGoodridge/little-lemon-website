@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  
 }
 
 
@@ -23,8 +22,6 @@ header {
 }
 
 
-
-
 nav, .Nav-links {
   display: flex;
 }
@@ -33,7 +30,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 3vh;
-  padding: 5px;
+  padding: 10px;
   margin-right: 3rem;
 }
 
@@ -53,5 +50,113 @@ a {
 
 .Hero-container {
   background-color: #495e57;
+  color: white;
+  display: flex;
 }
 
+.Hero{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-bottom: 1rem;
+}
+
+.Hero > .Hero-subtitle {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.Hero .Hero-text {
+  margin-top: 0;
+  padding: 0;
+  text-align: left;
+}
+.Title {
+  color: #f4ce14;
+  margin-bottom: 0;
+}
+
+/*Buttons*/
+
+.Btn {
+  background-color: #f4ce14;
+  border: none;
+  border-radius: 9px ;
+  padding: 0.6rem;
+  width: fit-content;
+}
+
+.Menu-btn {
+  height: fit-content;
+  margin-right: 3rem;
+}
+.Btn:hover {
+  cursor: pointer;
+}
+
+/*Specials*/
+
+
+.Specials-article-container {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.This-weeks-specials-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Specials-container {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  position: relative;
+}
+
+.Specials {
+  background-color: #edefee;
+  width: 14rem;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.Specials-padding {
+  padding: 1rem;
+}
+
+.Specials-name-and-price {
+  display: flex;
+  gap: 1rem;
+}
+
+.Specials-price {
+  color: #ee9972;
+}
+
+.Specials-details-container{
+  margin-bottom: 3rem;
+}
+.Specials-order-link-container {
+  position: absolute;
+  bottom: 0;
+}
+
+.Food-image {
+  width: 100%;
+  max-height: 150px;
+  vertical-align: top;
+  padding: 0;
+  margin:0;
+  border-radius: 10px 10px 0px 0px;
+}
+
+/*Footer*/
+
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 1.5rem;
+  text-align: center;
+  margin-top: 5rem;
+}
