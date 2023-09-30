@@ -27,7 +27,7 @@ header {
 }
 
 
-nav, .Nav-links {
+nav, .nav-links {
   display: flex;
 }
 
@@ -39,7 +39,7 @@ nav {
   margin-right: 3rem;
 }
 
-.Nav-links {
+.nav-links {
   gap: 2rem;
   list-style: none;
   font-size: 1rem;
@@ -53,7 +53,7 @@ a {
 
 /*Hero*/
 
-#Hero-container, .Hero-container {
+#hero-container, .hero-container {
   background-color: #495e57;
   color: white;
   display: flex;
@@ -62,31 +62,31 @@ a {
   padding: 1rem;
 }
 
-.Hero{
+.hero{
   display: flex;
   flex-direction: column;
   width: 25%;
   margin-bottom: 1rem;
 }
 
-.Hero > .Hero-subtitle {
+.hero > .hero-subtitle {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
 
-.Hero .Hero-text {
+.hero .hero-text {
   margin-top: 0;
   padding: 0;
   text-align: left;
 }
-.Title {
+.title {
   color: #f4ce14;
   margin-bottom: 0;
 }
 
 /*Buttons*/
 
-.Btn {
+.btn {
   background-color: #f4ce14;
   border: none;
   border-radius: 9px ;
@@ -94,64 +94,64 @@ a {
   width: fit-content;
 }
 
-.Menu-btn {
+.menu-btn {
   height: fit-content;
   margin-right: 3rem;
 }
-.Btn:hover {
+.btn:hover {
   cursor: pointer;
 }
 
 /*Specials*/
 
 
-.Specials-article-container {
+.specials-article-container {
   margin-top: 5rem;
   display: flex;
   flex-direction: column;
 }
 
-.This-weeks-specials-container {
+.this-weeks-specials-container {
   display: flex;
   justify-content: space-between;
   margin-bottom: 4rem;
 }
 
-.Specials-container {
+.specials-container {
   display: flex;
   gap: 4rem;
   justify-content: center;
   position: relative;
 }
 
-.Specials {
+.specials {
   background-color: #edefee;
   width: 14rem;
   border-radius: 10px 10px 0px 0px;
 }
 
-.Specials-padding {
+.specials-padding {
   padding: 1rem;
 }
 
-.Specials-name-and-price {
+.specials-name-and-price {
   display: flex;
   gap: 1rem;
 }
 
-.Specials-price {
+.specials-price {
   color: #ee9972;
 }
 
-.Specials-details-container{
+.specials-details-container{
   margin-bottom: 3rem;
 }
-.Specials-order-link-container {
+.specials-order-link-container {
   position: absolute;
   bottom: 0;
 }
 
-.Food-image {
+.food-image {
   width: 100%;
   max-height: 150px;
   vertical-align: top;

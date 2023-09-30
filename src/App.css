@@ -1,38 +1,179 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  min-height: 100vh;
+
+}
+
+
+
+h1, h2, h3, h4, h5, h6, .Link{
+  font-family: 'Josefin Sans', sans-serif;
+font-family: 'Markazi Text', serif;
+font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Karla', sans-serif;
+}
+
+/*Header*/
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+nav, .nav-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 3vh;
+  padding: 10px;
+  margin-right: 3rem;
+}
+
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+/*Hero*/
+
+#hero-container, .hero-container {
+  background-color: #495e57;
   color: white;
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.hero{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-bottom: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hero > .hero-subtitle {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
 }
+
+.hero .hero-text {
+  margin-top: 0;
+  padding: 0;
+  text-align: left;
+}
+.title {
+  color: #f4ce14;
+  margin-bottom: 0;
+}
+
+.banner-img {
+  position: absolute;
+  right: 13%;
+  top: 15%;
+  width: 400px;
+}
+
+/*Buttons*/
+
+.btn {
+  background-color: #f4ce14;
+  border: none;
+  border-radius: 9px ;
+  padding: 0.6rem;
+  width: fit-content;
+}
+
+.menu-btn {
+  height: fit-content;
+  margin-right: 3rem;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+/*Specials*/
+
+
+.specials-article-container {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.this-weeks-specials-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.specials-container {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  position: relative;
+}
+
+.specials {
+  background-color: #edefee;
+  width: 14rem;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.specials-padding {
+  padding: 1rem;
+}
+
+.specials-name-and-price {
+  display: flex;
+  gap: 1rem;
+}
+
+.specials-price {
+  color: #ee9972;
+}
+
+.specials-details-container{
+  margin-bottom: 3rem;
+}
+.specials-order-link-container {
+  position: absolute;
+  bottom: 0;
+}
+
+.food-image {
+  width: 100%;
+  max-height: 150px;
+  vertical-align: top;
+  padding: 0;
+  margin:0;
+  border-radius: 10px 10px 0px 0px;
+}
+
+/*Footer*/
+
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 1.5rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+

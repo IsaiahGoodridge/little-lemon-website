@@ -1,14 +1,19 @@
+import React from 'react';
 import './App.css';
-import Header from './Header';
-import Main from './Main';
-import Footer from './Footer';
+import Main from './components/Main';
+import Footer from './components/Footer';
+import Nav from './components/Nav';
+import Menu from './components/Menu';
+import BookingForm from './components/BookingForm';
+import Booking from './components/Booking';
 
 
 function App() {
   return (
     <>
-      <Header/>
-      <Main/>
+      <Nav/>
+      <Main />
+      <Menu/>
       <Footer/>
     </>
   );
