@@ -22,22 +22,22 @@ const Nav = () => {
 
             {/* desktop navbar*/}
             <ul className={`nav-links ${menuOpen ? 'visible' : ""}`} >
-                <li>
+                <li className="link">
                     <a href ='/'>Home</a>
                 </li>
-                <li>
+                <li className="link">
                     <a href ='/'>About</a>
                 </li>
-                <li>
+                <li className="link">
                     <a href ='/'>Menu</a>
-                </li>
-                <li>
+                </li >
+                <li className="link">
                     <a href ='/'>Reservations</a>
                 </li>
-                <li>
+                <li className="link">
                     <a href ='/'>Order Online</a>
                 </li>
-                <li>
+                <li className="link">
                     <a href ='/'>Login</a>
                 </li>
             </ul>

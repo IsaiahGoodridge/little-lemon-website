@@ -33,7 +33,7 @@ const BookingForm  = (props) => {
               <input
                 type='text'
                 id='First-name'
-                className='First-name'
+                className='First-name field'
                 name='First-name'
                 value={firstName}
                 onChange={(e) => setfirstName(e.target.value)}
@@ -44,7 +44,7 @@ const BookingForm  = (props) => {
               <input
                 type='text'
                 id='last-name'
-                className='last-name'
+                className='last-name field'
                 name='last-name'
                 value={lastName}
                 onChange={(e) => setlastName(e.target.value)}
@@ -55,7 +55,7 @@ const BookingForm  = (props) => {
               <input
                 type='date'
                 id='res-date'
-                className='res-date'
+                className='res-date field'
                 name='res-date'
                 value={date}
                 onChange={(e) => handleChange(e.target.value)}
@@ -67,7 +67,7 @@ const BookingForm  = (props) => {
               <select
                 type='time'
                 id='res-time'
-                className='res-time'
+                className='res-time field'
                 name='time'
                 value={time}
                 onChange={(e) => setTime(e.target.value)} required>
@@ -86,6 +86,7 @@ const BookingForm  = (props) => {
                 <input
                   id='guests'
                   name='guests'
+                  className='guests field'
                   min='1'
                   max='10'
                   placeholder='0'
@@ -100,6 +101,8 @@ const BookingForm  = (props) => {
               <label htmlFor="occasion">Occasion:</label>
                 <select 
                   id="occasion" 
+                  name='occasion'
+                  className='occasion field'
                   key={occasion}
                   value={occasion}
                   onChange={(e) => setOccasion(e.target.value)}
@@ -111,8 +114,8 @@ const BookingForm  = (props) => {
                 <option>Other</option>
                 </select>
               </div>
-              <div className="btnReceive">
-                <input aria-label="On Click" type={"submit"} value={"Make Your Reservation"}></input>
+              <div className= "btnReceive">
+                <input className='btn res-btn' aria-label="On Click" type={"submit"} value={"Make Your Reservation"}></input>
             </div>
           </fieldset>
         </form>

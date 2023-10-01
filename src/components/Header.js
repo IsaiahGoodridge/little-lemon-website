@@ -12,7 +12,7 @@ const Header = () => {
               <p className='hero-subtitle'>New York</p>
               <p className='hero-text'>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist</p>
               <Link to="/booking">
-                <button aria-label="On Click">Reserve Table</button>
+                <button className='btn' aria-label="On Click">Reserve Table</button>
               </Link>
             </section>
           </article>
