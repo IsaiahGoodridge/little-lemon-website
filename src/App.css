@@ -1,11 +1,10 @@
-body {
-  margin: 0;
+body{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
-
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
 }
+
 
 
 
@@ -18,20 +17,22 @@ p {
   font-family: 'Karla', sans-serif;
 }
 
-/*Header*/
+/*Nav*/
 
 nav, .nav-links {
   display: flex;
 }
 
 nav {
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   height: 3vh;
   padding: 10px;
   margin-right: 3rem;
   z-index: 10001;
 }
+
+
 
 .nav-links {
   gap: 2rem;
@@ -52,13 +53,9 @@ a {
 
 /*Hero*/
 
-#hero-container, .hero-container {
+.hero-container {
   background-color: #495e57;
   color: white;
-  display: flex;
-  width: 100%;
-  margin: 0;
-  position: relative;
 }
 .hero p {
   line-height: 1.5;
@@ -70,6 +67,8 @@ a {
   flex-direction: column;
   width: 25%;
   margin-bottom: 1rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
 }
 
 .hero > .hero-subtitle {

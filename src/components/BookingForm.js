@@ -37,6 +37,7 @@ const BookingForm  = (props) => {
                 name='First-name'
                 value={firstName}
                 onChange={(e) => setfirstName(e.target.value)}
+                required
                 />
             </div>
             <div>
@@ -48,6 +49,7 @@ const BookingForm  = (props) => {
                 name='last-name'
                 value={lastName}
                 onChange={(e) => setlastName(e.target.value)}
+                required
                 />
             </div>
             <div>
@@ -70,7 +72,9 @@ const BookingForm  = (props) => {
                 className='res-time field'
                 name='time'
                 value={time}
-                onChange={(e) => setTime(e.target.value)} required>
+                onChange={(e) => setTime(e.target.value)} 
+                required
+                >
                 <option value="">Select a time</option>
                 {props.availableTimes && props.availableTimes.availableTimes ? (
                   props.availableTimes.availableTimes.map((availableTime) => (
