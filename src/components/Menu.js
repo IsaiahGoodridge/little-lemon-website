@@ -1,7 +1,7 @@
 import React from 'react';
-import greeksalad from '/Users/isaiah/Documents/GitHub/little-lemon/src/assets/greek salad.jpg';
-import bruchetta from '/Users/isaiah/Documents/GitHub/little-lemon/src/assets/bruchetta.svg'
-import lemondessert from  '/Users/isaiah/Documents/GitHub/little-lemon/src/assets/lemon dessert.jpg'
+import greeksalad from '../assets/greek salad.jpg';
+import bruchetta from '../assets/bruchetta.svg'
+import lemondessert from  '../assets/lemon dessert.jpg'
 
 const Menu = () => {
   return (
