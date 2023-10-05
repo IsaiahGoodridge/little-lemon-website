@@ -2,6 +2,9 @@
 
 Follow this URL to view the deployed website: https://651ec837be42df0008db3a6e--prismatic-khapse-160e3d.netlify.app/
 
+##Technology Used
+React.js | HTML | CSS
+
 ## Motivation
 The Little Lemon Restaurant was the capstone project for the Meta Front-end Developer Professional Certificate. It involved taking a provided design and implementing it from scratch.
 
