@@ -1,5 +1,4 @@
 import React from 'react'
-import restaurantfood from '../assets/restauranfood.jpg'
 import { Link } from "react-router-dom";
 
 const Header = () => {

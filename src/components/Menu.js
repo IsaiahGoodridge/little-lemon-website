@@ -15,7 +15,7 @@ const Menu = () => {
         </section>
         <section className='specials-container'>
           <div className='specials'>
-            <img src={greeksalad} alt='Image of greek salad' className='food-image'/>
+            <img src={greeksalad} alt='Greek salad' className='food-image'/>
             <div className='specials-padding'>
               <div className='specials-name-and-price'>
                 <h5 className='specials-name'>Greek Salad</h5>
@@ -30,7 +30,7 @@ const Menu = () => {
             </div>
           </div>
           <div className='specials'>
-            <img src={bruchetta} alt='Image of bruchetta' className='food-image'/>
+            <img src={bruchetta} alt='Bruchetta' className='food-image'/>
             <div className='specials-padding'>
               <div className='specials-name-and-price'>
                 <h5 className='specials-name'>Bruchetta</h5>
@@ -45,7 +45,7 @@ const Menu = () => {
             </div>
           </div>
           <div className='specials'>
-            <img src={lemondessert} alt='Image of lemon dessert' className='food-image'/>
+            <img src={lemondessert} alt='Lemon dessert' className='food-image'/>
             <div className='specials-padding'>
               <div className='specials-name-and-price'>
                 <h5 className='specials-name'>Lemon Dessert</h5>
