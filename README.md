@@ -11,7 +11,7 @@ The Little Lemon Restaurant was the capstone project for the Meta Front-end Deve
 After designing the website, the final goal was to create a booking form that connects to an API, fetching available times based on the date chosen. 
 
 ## Functionality
-Initially, the website will only have booking form functionality. I will update the website with more functionality as my learning continues.
+Initially, the website will only have booking form functionality by clicking on the "Reserve Table" link. I will update the website with more functionality as my learning continues.
 
 ### User Interface Styling Guide
 ![Ui kit (1)](https://github.com/IsaiahGoodridge/little-lemon-website/assets/143850822/699ebd54-c0ec-4b75-98cc-424565a522ce)
