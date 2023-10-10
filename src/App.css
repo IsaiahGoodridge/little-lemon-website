@@ -244,7 +244,7 @@ footer {
 }
 
 
-@media screen and (max-width: 760px){
+@media only screen and (max-width: 390px){
   body {
     display: flex;
     flex-direction: column;
