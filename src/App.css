@@ -233,6 +233,13 @@ label {
   margin: 0.5rem auto;
 }
 
+/*Booking Confirmation*/
+
+.confirmation-text {
+  color: #45a049;
+}
+
+
 /*Footer*/
 
 footer {
