@@ -1,6 +1,6 @@
 # Little Lemon Restaurant Website
 
-Follow this URL to view the deployed website: [](https://prismatic-khapse-160e3d.netlify.app/)
+Follow this URL to view the deployed website: https://prismatic-khapse-160e3d.netlify.app/
 ## Technology Used
 React.js | HTML | CSS
 
